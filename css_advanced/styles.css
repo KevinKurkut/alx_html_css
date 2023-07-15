@@ -1,0 +1,195 @@
+.header-container{
+    display: flex;
+    
+}
+
+header{
+    background-image: url(image/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1103.41px;
+}
+.logo{
+    display: flex;
+    width: 167px;
+    height: 30px;
+    align-content: flex-start;
+}
+.name{
+    color: #FFFFFF;
+    width: 111.83399963378906px;
+}
+
+.menu{
+    width: 234px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    gap: 16px;
+}
+ul li{
+    list-style-type: none;
+}
+h1{
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 150.84px;
+    align-items: center;
+}
+.banner{
+    align-items: center;
+}
+.tuto-1 p{
+ color: black;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.text p{
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn{
+    width: 162px;
+    height: 44px;
+    border-radius: 80px;
+    color: white;
+    background-color: #C271FF;
+    border: none;
+    align-items: center;
+}
+h2{
+    align-items: center;
+    font-size: 32px;
+    line-height: 40.22px;
+
+}
+.pros{
+    display: flex;
+    width: 1009px;
+    height: 235px;
+}
+.pros > div{
+    width: 1009px;
+
+
+}
+.learn-pros{
+    align-items: center;
+}
+.section-testimonial{
+    display: flex;
+}
+.section-testimonial > div{
+    width: 943px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #C271FF;
+}
+.testi{
+    width: 743px;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+}
+.section-membership{
+    background-color:#071629;
+    
+}
+ h3{
+font-size: 32px;
+font-weight: 300;
+letter-spacing: 0px;
+text-align: center;
+
+ }   
+ .section-tutoriial{
+    width: 1228px;
+    height: 450px;
+    border: none;
+    box-sizing: border-box;
+ }
+ .tuto{
+    display: flex;
+    flex-direction: row;
+ }
+ .tuto > div {
+    width: 255px;
+ }
+ 
+ .smiles{
+    display: flex;
+    flex-direction: row;
+ }
+ .smiles > div{
+    text-align: center;
+    width: 335px;
+
+ }
+ /*button*/
+ .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border:none;
+ }
+/*fag*/
+.section-faq{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 707px;
+} 
+.section-faq > div {
+    width: 50%;
+    height: 242px;
+}
+/*footer*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  footer{
+    height: 249px;
+    width: 1440px;
+    box-sizing: border-box;
+    background-color: #071629;
+
+  }
+  .footer-content{
+    display: flex;
+    flex-direction: row;
+  }
+  .social{
+    align-content: flex-end;
+  }
+  .social ul{
+    list-style-type: none;
+
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .copyright-info{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+  }
