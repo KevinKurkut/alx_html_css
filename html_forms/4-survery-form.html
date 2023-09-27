@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form with Select Dropdown, Time, and Date Selection</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br> 
+        
+        <label for="cars">Choose a color</label>
+        <select name="colors" id="color" required>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="Date"><br>
+        <label for="time">Time</label><br>
+        <input type="time" name="Time" id="time"><br>
+    </form>
+</body>
+</html>
